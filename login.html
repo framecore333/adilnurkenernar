@@ -1,0 +1,84 @@
+<head>
+  <title>Login</title>
+  <link rel="shortcut icon" href="img/favicon.jfif" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <a href="index.html"><img id="logo" src="img/favicon.jfif"></a>
+    </div>
+
+  <style>
+    h1{
+      color: white;
+    }
+    Body {
+      font-family: verdana;
+      background-color: #ffffff;
+    }
+    button {
+           background-color: #4e4b4b;
+           width: 100%;
+            color: white;
+            padding: 15px;
+            margin: 10px 0px;
+            border: none;
+            cursor: pointer;
+             }
+     input[type=text], input[type=password] {
+            width: 100%;
+            margin: 8px 0;
+            padding: 12px 20px;
+            display: inline-block;
+            background-color:#4e4b4b;
+            box-sizing: border-box;
+        }
+     button:hover {
+            opacity: 0.7;
+        }
+      .cancelbtn {
+            width: auto;
+            padding: 10px 18px;
+            margin: 10px 5px;
+        }
+
+
+     .container {
+            padding: 25px;
+            background-color: #1a1919;
+            height: auto;
+            margin-top: 100px;
+        }
+        .reg{
+          text-align:center;
+          color:white;
+        }
+</style>
+</head>
+<body>
+<div id="about">
+    <a href ="store.html" title="Store">Store</a>
+    <a href ="subscription.html" title ="Subscription">Subscription</a>
+    <a href ="contacts.html" title ="Contacts">Contacts</a>
+    <a href ="faq.html" title ="FAQ">FAQ</a>
+    <a href ="registration.html" title ="Sign Up">Sign Up/Log in</a>
+</div>
+    <h1> Login Form </h1>
+    <form>
+        <div class="container">
+            <label>Username : </label>
+            <input type="text" placeholder="Enter Username" name="username" required>
+            <label>Password : </label>
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <button type="submit">Login</button>
+            <input type="checkbox" checked="checked"> Remember me
+            <button type="button" class="cancelbtn"> Cancel</button>
+        </div>
+        <div class="reg">
+          <p>Not registered yet? <a href="registration.html">Sign in</a>.</p>
+        </div>
+        <div class="con">
+            <center><h5>Contacts</h5></center>
+            <center><h2>+7-(705)-465-13-53:</h2></center>
+            <center><h2>bestonline.pharma@gmail.com:</h2></center>
+            <center><h2>Office: Talan Towers (highest floor)</h2></center>
+        </div>
+    </form>
+</body>
