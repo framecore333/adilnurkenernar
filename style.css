@@ -80,16 +80,24 @@ header #logo span{
   text-shadow: black;
 }
 
+
+.page{
+  margin-top: 95px;
+  width: 900px;
+  margin-left: 25%;
+}
+
+
 .product{
   float: right;
   padding: 1px 1px;
-  width: 30%;
+  width: 50%;
   text-align: left;
-  border: 7px solid seashell;
+  border: 3px solid darkseagreen;
 }
 .product img{
   float:left;
-  width: 70%;
+  width: 50%;
   margin-right: 5%;
   margin-top: 15%;
   margin-bottom: 30px;
@@ -106,13 +114,19 @@ header #logo span{
   margin-left: 10px;
   margin-bottom: 20px;
 }
+
+.Description{
+  margin-top: 320px;
+}
+
 .conracts {
  width: 100%;
   float: left;
   padding-bottom: 40px;
   padding-top: 70px;
   border-top: 4px solid #ccc ;
-  background: f4f4f4;
+  background-color: #cccccc;
+  margin-top: 75px;
 }
 
 .conracts h5{
@@ -138,7 +152,7 @@ header #logo span{
   top: 10px;
   left: 30px;
   width: 500px;
-  height: 110px;
+  height: 100px;
   background-color: darkseagreen;
   z-index:1;
 }
@@ -148,7 +162,7 @@ header #logo span{
   top: 10px;
   left: 30px;
   width: 700px;
-  height: 250px;
+  height: 160px;
   background-color: darkseagreen;
   z-index:1;
 }
@@ -162,14 +176,103 @@ header #logo span{
   background: f4f4f4;
 }
 
+.subscription{
+  text-align: center;
+  border-radius: 15px;
+}
+
+.subscription img{
+  border-radius: 0px 15px 15px 0px;
+  width: 850px;
+  height: 470px;
+  float: right;
+  margin-right: 95px;
+}
+
+.choice1{
+  margin-right:400px ;
+  margin-left: 95px;
+  background-color: darkseagreen;
+  margin-top: 35px;
+  border-radius: 15px 0px 0px 15px;
+  width: 474px;
+  height: 470px;
+}
+
+
+.choice1 h3{
+  background-color: #097969;
+  border-radius: 15px 15px 15px 15px;
+  padding: 15px;
+}
+
+.choice2 h4{
+  position: relative;
+  border-radius: 15px 0px 0px 0px;
+  right:5px;
+  bottom:50px;
+}
+
+.choice1 h5{
+  text-align: left;
+  padding: 70px 100px;
+}
+
+.kid2 img {
+  margin-top: 25px;
+  height: 530px;
+
+}
+
+.choice2{
+  margin-left: 95px;
+  margin-right: 64%;
+  margin-bottom: 15px;
+  margin-top: 25px;
+  background-color: darkseagreen;
+  border-radius: 15px 0px 0px 15px;
+  height: 530px;
+  width: 474px;
+}
+
+.choice2 h3{
+  background-color: #097969;
+  padding: 15px;
+  border-radius: 15px 0px 0px 0px;
+}
+
+.choice2 h4{
+  position: relative;
+  border-radius: 15px 0px 0px 0px;
+  padding: 15px;
+}
+
+.choice2 h5{
+  text-align: left;
+  padding: 70px 100px;
+}
+
+
+.subscription h3{
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+.subscription h5{
+  font-size: 40px;
+}
+
+
+
 
 * {box-sizing: border-box}
+
 
 .container {
   height: 500px;
   width: auto;
   padding: 16px;
-  color: black;
+  color: white;
   font-family: "Trebuchet MS";
 
 }
@@ -214,10 +317,10 @@ hr {
 }
 
 a {
-  color: blue;
+  color: black;
 }
 
 .signin {
-  background-color: #1a1919;
+  background-color: white;
   text-align: center;
 }
