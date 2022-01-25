@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<head>
+    <title>Login</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="style.css">
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="img/favicon.png" width="50" height="50"></a>
+            <span>Online Pharmacy</span>
+        </div>
+        </div>
+        <div id="about">
+            <a href ="store.html" title="Store">Store</a>
+            <a href ="subscription.html" title ="Subscription">Subscription</a>
+            <a href ="contacts.html" title ="Contacts">Contacts</a>
+            <a href ="faq.html" title ="FAQ">FAQ</a>
+            <a href ="registration.html" title ="Sign Up">Sign Up/Log in</a>
+        </div>
+    </header>
+    </body>
+</head>
+
+  <style>
+    h1{
+      color: white;
+    }
+    Body {
+      font-family: Bahnschrift;
+      background-color: #ffffff;
+    }
+
+    hr {
+        display: block;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: 2px;
+        border: 1px solid #4e4b4b;
+    }
+
+    button {
+           background-color: #4e4b4b;
+           width: 100%;
+            color: white;
+            padding: 15px;
+            margin-top: 5px;
+            margin-bottom: 1px;
+            border: none;
+            cursor: pointer;
+             }
+     input[type=text], input[type=password] {
+            width: 100%;
+            margin: 8px 0;
+            padding: 12px 20px;
+            display: inline-block;
+            background-color:#4e4b4b;
+            box-sizing: border-box;
+        }
+
+     button:hover {
+            opacity: 0.7;
+        }
+
+     .container {
+            padding: 25px;
+            background-color: white;
+            height: auto;
+            margin-top: 10px;
+        }
+
+    label {
+        font-size: 1em;
+        font-weight: 150;
+        color: black;
+    }
+
+    .signup {
+        background-color: white;
+        text-align: center;
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+
+    .conracts {
+        width: 100%;
+        float: left;
+        padding-bottom: 60px;
+        padding-top: 70px;
+        border-top: 4px solid #ccc ;
+        background-color: #cccccc;
+        margin-top: 150px;
+    }
+</style>
+</head>
+<body>
+    <h1> Login Form </h1>
+    <form>
+        <div class="container">
+            <hr>
+            <label>Username : </label>
+            <input type="text" placeholder="Enter Username" name="username" required>
+            <label>Password : </label>
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <hr>
+            <form>
+                <label for="checkbox">Remember me</label>
+                <input type="checkbox" id="checkbox" name="checkbox" />
+            </form><br>
+            <button type="submit">Login</button>
+        </div>
+        <div class="container signup">
+            <p><h5>Not registered yet?</h5> <a href="registration.html">Sign up</a>.</p>
+        </div>
+        <div class="conracts">
+            <center><h5>Contacts</h5></center>
+            <center><h2>+7-(705)-465-13-53</h2></center>
+            <center><h2>bestonline.pharma@gmail.com</h2></center>
+            <center><h2>Office: Talan Towers (highest floor)</h2></center>
+        </div>
+    </form>
+</body>
