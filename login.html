@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<head>
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="style.css">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-success bg-success">
+      <div class="container-fluid">
+        <a href="img/favicon-32x32.png" class="navbar-left"><img src="img/favicon-32x32.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Buy
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="store.html">Store</a></li>
+                <li><a class="dropdown-item" href="subscription.html">Subscription</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cart.html">My cart</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacts.html">Contacts</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+      </nav>
+    </header>
+    </body>
+</head>
+
+  <style>
+    h1{
+      color: white;
+    }
+    Body {
+      font-family: Bahnschrift;
+      background-color: #ffffff;
+    }
+
+    hr {
+        display: block;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: 2px;
+        border: 1px solid #4e4b4b;
+    }
+
+    button {
+           background-color: #4e4b4b;
+           width: 100%;
+            color: white;
+            padding: 15px;
+            margin-top: 5px;
+            margin-bottom: 1px;
+            border: none;
+            cursor: pointer;
+             }
+     input[type=text], input[type=password] {
+            width: 100%;
+            margin: 8px 0;
+            padding: 12px 20px;
+            display: inline-block;
+            background-color:#4e4b4b;
+            box-sizing: border-box;
+        }
+
+     button:hover {
+            opacity: 0.7;
+        }
+
+     .container {
+            padding: 25px;
+            background-color: white;
+            height: auto;
+            margin-top: 10px;
+        }
+
+    label {
+        font-size: 1em;
+        font-weight: 150;
+        color: black;
+    }
+
+    .signup {
+        background-color: white;
+        text-align: center;
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+
+    .conracts {
+        width: 100%;
+        float: left;
+        padding-bottom: 60px;
+        padding-top: 70px;
+        border-top: 4px solid #ccc ;
+        background-color: #cccccc;
+        margin-top: 150px;
+    }
+</style>
+</head>
+<body>
+    <h1> Login Form </h1>
+    <form>
+        <div class="container">
+            <hr>
+            <label>Username : </label>
+            <input type="text" placeholder="Enter Username" name="username" required>
+            <label>Password : </label>
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <hr>
+            <form>
+                <label for="checkbox">Remember me</label>
+                <input type="checkbox" id="checkbox" name="checkbox" />
+            </form><br>
+            <button type="submit">Login</button>
+        </div>
+        <div class="container signup">
+            <p><h5>Not registered yet?</h5> <a href="registration.html">Sign up</a>.</p>
+        </div>
+        <div class="conracts">
+            <center><h5>Contacts</h5></center>
+            <center><h2>+7-(705)-465-13-53</h2></center>
+            <center><h2>bestonline.pharma@gmail.com</h2></center>
+            <center><h2>Office: Talan Towers (highest floor)</h2></center>
+        </div>
+    </form>
+</body>
